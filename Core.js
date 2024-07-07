@@ -5636,7 +5636,7 @@ _Click the button below to download_`
           "send abusive words in any grup, excepting this grup, and send screenshot proof here"
         ]
         const A17dareww = dare[Math.floor(Math.random() * dare.length)]
-        buffer = await getBuffer(`https://images4.alphacoders.com/101/1016619.jpg`)
+        buffer = await getBuffer(`https://graph.org/file/a568f24d2e5c5ebc66264.jpg`)
         A17.sendMessage(from, { image: buffer, caption: '*You have chosen Dare...*\n\n' + A17dareww }, { quoted: m })
         break;
 
@@ -5740,7 +5740,7 @@ _Click the button below to download_`
           "do you play pubg, if you then send ur id number"
         ]
         const A17truthww = truth[Math.floor(Math.random() * truth.length)]
-        buffer = await getBuffer(`https://images2.alphacoders.com/650/650812.jpg`)
+        buffer = await getBuffer(`https://graph.org/file/28db505e44d1a5d5d29ce.jpg`)
         A17.sendMessage(from, { image: buffer, caption: '*You have chosen Truth...*\n' + A17truthww }, { quoted: m })
         break;
 
@@ -7015,7 +7015,7 @@ _Click the button below to download_`
                     text: "            Powered by A17 2024"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
-                    ...(await prepareWAMessageMedia({ image: { url: 'https://graph.org/file/4ca10c7029fcaee1003f7.jpg' } }, { upload: A17.waUploadToServer })),
+                    ...(await prepareWAMessageMedia({ image: { url: 'https://graph.org/file/31bf5c6deb6629f0ac9e8.jpg' } }, { upload: A17.waUploadToServer })),
 
 
                     title: "                      Help Menu",
