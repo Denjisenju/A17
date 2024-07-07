@@ -16,7 +16,7 @@ global.autoreadgc = process.env.AUTOREADGC || true;
 
 
 // Auth information
-global.pairNumber = "916300793116";                         // Add your paining number with country code example "916297175943"; 
+global.pairNumber = "918712063999";                         // Add your paining number with country code example "916297175943"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
@@ -30,9 +30,9 @@ global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
 
 
 // Owner information
-global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["916300793116", ""];
-global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["916300793116", ""];
-global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["916297175943"];
+global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["916300793116", "918712063999"];
+global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["916300793116", "918712063999"];
+global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["916300793116"];
 global.OwnerName = process.env.OWNER_NAME || "SID";
 global.BotName = process.env.BOT_NAME || "MIYAMURA";
 global.packname = process.env.PACK_NAME || "MIYAMURA";
