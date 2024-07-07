@@ -46,7 +46,7 @@ global.openAiAPI = process.env.OPENAI_API || "sk-7DQYqH9PtFmo3z5n8Ya3T3BlbkFJ4ed
 global.location = process.env.LOCATION || "West Bengal, India";
 global.reactmoji = process.env.REACT_MOJI || "🙈";
 global.themeemoji = process.env.THEME_EMOJI || "💖";
-global.vidmenu = { url: process.env.VID_MENU_URL || 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
+global.vidmenu = { url: process.env.VID_MENU_URL || 'https://graph.org/file/31bf5c6deb6629f0ac9e8.jpg' };
 
 
 //
@@ -54,7 +54,7 @@ global.BotLogo = fs.readFileSync("./Assets/pic1.jpg");
 global.Thumb = fs.readFileSync("./Assets/pic9.jpg");
 global.Thumb1 = fs.readFileSync("./Assets/pic5.jpg");
 global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg");
-global.them = "https://r4.wallpaperflare.com/wallpaper/1003/376/845/makoto-shinkai-kimi-no-na-wa-wallpaper-0816ade8b0301c58302c014e48d2441a.jpg";
+global.them = "https://graph.org/file/31bf5c6deb6629f0ac9e8.jpg";
 
 
 //
